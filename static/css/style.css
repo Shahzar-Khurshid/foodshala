@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden;
+}
+.foodshala-logo{
+    width: 50px;
+}
+.navbar-nav > li{
+    padding-right:30px;
+}
+.hover-white:hover{
+    color: white !important;
+}
+.social-logo{
+    width:25px;
+}
+.categories-card a:hover{
+    text-decoration: none;
+    color: #377cfc;
+    box-shadow: 0 2px 8px rgba(0,0,0,.12);
+    border-radius: 6px;
+}
+
+.categories-card a{
+    color:#333;
+}
+.card-img-top{
+    height: 175px;
+}
+.login-page{
+    background: url('../images/food-collage.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.login-form-container{
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 0 5px #888;
+    border-radius: 4px;
+    padding-top: 20px;
+    min-width: 300px;
+    width: 40%;
+    position: absolute;
+    bottom: initial;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow-y: hidden;
+    top: 10%;
+}
+
+.foodie-register-page {
+    background: url('../images/foodie-register-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 10vh 0;
+    display: flex;
+    min-height: 100vh;
+}
+.restaurant-register-page{
+    background: url('../images/restaurant-register-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 10vh 0;
+    display: flex;
+    min-height: 100vh;
+}
+.foodie-register-form-container , .restaurant-register-form-container{
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 0 5px #888;
+    border-radius: 4px;
+    padding-top: 20px;
+    min-width: 300px;
+    width: 40%;
+    margin: auto;
+    overflow-y: hidden;
+    top: 10%;
+}
+.type-icon{
+    width: 13px;
+    margin-top: -3px;
+}
+
+.order-input input{
+    width: 50px;
+    border-radius: 3px;
+    border: 2px solid #047afc;
+}
+.change-quantity{
+    border:3px solid #74e915;
+    padding: 1px 3px;
+    border-radius: 5px;
+}
+.change-quantity img{
+    height:15px;
+    cursor: pointer;
+}
+.change-quantity span{
+    background: transparent;
+    border-left:  3px solid #74e915;
+    border-right:  3px solid #74e915;
+    padding: 5px;
+}
+.restaurant-and-quantity{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    justify-content: space-between;
+}
+.subtotal{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-total-items{
+    font-size: 25px;
+}
+.cart-icon{
+    width: 2rem;
+    height: 2rem;
+}
+.restaurant-name{
+    font-size: 20px;
+    font-weight: 600;
+}
